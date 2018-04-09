@@ -1,0 +1,1 @@
+1.  将redux store和react context连接起来
