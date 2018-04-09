@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import connect from './react-redux/connect';
+import connect from './react-redux/Connect';
 
 class ThemeSwitch extends Component {
     handleSwitchColor(color) {

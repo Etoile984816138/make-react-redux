@@ -38,7 +38,6 @@ const connect = (mapStateToProps, mapDispatchToProps) => (WrappedComponent) => {
         }
 
         render() {
-            const { store } = this.context;
             const allProps = this.state.allProps;
             // {...stateProps} 意思是把这个对象里面的属性全部通过 `props` 方式传递进去
             return <WrappedComponent {...allProps} />
